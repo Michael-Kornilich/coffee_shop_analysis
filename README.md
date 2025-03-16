@@ -3,11 +3,15 @@
 [Dataset source](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales?resource=download)
 
 In order to run the notebook you must:
+- have a Unix-like system (Windows support coming with docker)
 - have a valid 3.10+ python version
-- have the `requirements.txt` installed
-- have [kagglehub](https://github.com/Kaggle/kagglehub) set up and have your `kaggle.json` in your home directory ([More](https://github.com/Kaggle/kagglehub#option-3-read-credentials-from-kagglejson))
+- clone the repo
+- create a new virtual environment inside of the project's folder by running: `python3 -m venv .venv`
+- activate the `.vevn` with `source <path-to-project>/.venv/bin/activate` (assuming that you have bash, sh or zsh)
+- install the `requirements.txt` with `pip install -r requirements.txt`
+- have your `kaggle.json` (for accessing [kaggle.com](https://www.kaggle.com/)) in your home directory ([More](https://github.com/Kaggle/kagglehub#option-3-read-credentials-from-kagglejson))
 ---
-### With this project I'm answering the following 15 questions about 3 coffee shops in the New York.
+### With this project I'm answering the following 15 questions about 3 coffee shops in New York.
 
 **General Sales & Transactions:**
 - How does the average transaction quantity vary across different store locations, and which location exhibits the highest variance in sales volume?
@@ -16,7 +20,7 @@ In order to run the notebook you must:
 
 **Time-Based Analysis:**
 - What is the distribution of total sales per hour of the day, and at what time do stores experience the highest and lowest median sales?
-- How do sales fluctuate by day of the week, and which weekday has the highest standard deviation in transaction quantities?
+- How does revenue fluctuate by day of the week, and which weekday has the highest standard deviation in profit?
 - What is the trend in total revenue over time—does it exhibit any seasonal patterns or anomalies?
 
 **Store Performance:**
@@ -33,6 +37,3 @@ In order to run the notebook you must:
 - What percentage of transactions fall into the top 10% of transaction values, and how does this compare across store locations?
 - What is the distribution of total revenue per transaction, and does it follow a normal distribution?
 - How does the skewness and kurtosis of transaction values compare across different store locations?
-
-
-Have Fun!
