@@ -25,7 +25,7 @@ In order to run the notebook you must:
 
 **Store Performance:**
 - What is the coefficient of variation (CV) in transaction quantities across different store locations, and which store shows the most consistent sales performance?
-- How does the total revenue per store compare, and which store is the top performer in terms of both mean and median revenue?
+- How does the total revenue per store compare, and which store is the top performer in terms of both mean and median monthly revenue?
 - Which store has the highest average transaction value, and is there a significant difference between the top and bottom performers?
 
 **Product Analysis:**
