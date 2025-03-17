@@ -9,7 +9,7 @@ In order to run the notebook you must:
 - create a new virtual environment inside of the project's folder by running: `python3 -m venv .venv`
 - activate the `.vevn` with `source <path-to-project>/.venv/bin/activate` (assuming that you have bash, sh or zsh)
 - install the `requirements.txt` with `pip install -r requirements.txt`
-- have your `kaggle.json` (for accessing [kaggle.com](https://www.kaggle.com/)) in your home directory ([More](https://github.com/Kaggle/kagglehub#option-3-read-credentials-from-kagglejson))
+- have your `kaggle.json` API key (for accessing [kaggle.com](https://www.kaggle.com/)) in your home directory ([More](https://github.com/Kaggle/kagglehub#option-3-read-credentials-from-kagglejson))
 ---
 ### With this project I'm answering the following 15 questions about 3 coffee shops in New York.
 
