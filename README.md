@@ -11,7 +11,7 @@ In order to run the notebook you must:
 - install the `requirements.txt` with `pip install -r requirements.txt`
 - have your `kaggle.json` API key (for accessing [kaggle.com](https://www.kaggle.com/)) in your home directory ([More](https://github.com/Kaggle/kagglehub#option-3-read-credentials-from-kagglejson))
 ---
-### With this project I'm answering the following 15 questions about 3 coffee shops in New York.
+### With this project I answered the following 13 questions about 3 coffee shops in New York.
 
 **General Sales & Transactions:**
 - How does the average transaction quantity vary across different store locations, and which location exhibits the highest variance in sales volume?
@@ -35,5 +35,3 @@ In order to run the notebook you must:
 
 **Customer Spending Behavior:**
 - What percentage of transactions fall into the top 10% of transaction values, and how does this compare across store locations?
-- What is the distribution of total revenue per transaction, and does it follow a normal distribution?
-- How does the skewness and kurtosis of transaction values compare across different store locations?
